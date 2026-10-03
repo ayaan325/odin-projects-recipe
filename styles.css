@@ -1,0 +1,27 @@
+body {
+    background-color:sandybrown;
+}
+
+div {
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 5px; 
+}
+
+.title {
+    background-color:bisque;
+    font-family:sans-serif;
+}
+
+.images {
+    text-align: center;
+    background-color: bisque;
+}
+
+.link_1 {
+    background-color: bisque;
+}
+
+.link_style {
+    font-family: sans-serif;
+}
