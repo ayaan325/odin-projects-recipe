@@ -21,3 +21,16 @@ div {
 .template {
     background-color: bisque;
 }
+
+.recipe-description{
+    background-color: bisque;
+}
+
+/* For custom font: */
+
+.permanent-marker-regular {
+  font-family: "Permanent Marker", cursive;
+  font-size: 45px;
+  font-weight: 400;
+  font-style: normal;
+}
