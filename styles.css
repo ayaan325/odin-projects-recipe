@@ -1,36 +1,42 @@
-body {
-    background-color:sandybrown;
-}
-
-div {
-    padding: 10px;
+body{
+    background-color: beige;
     text-align: center;
-    margin-bottom: 5px; 
 }
 
-.title {
-    background-color:bisque;
-    font-family:sans-serif;
-}
-
-.images {
+.header{
+    border-style: solid;
+    border-width: 6px;
+    width: fit-content;
+    margin: 0 auto;
+    border-color:brown;
+    border-radius: 20px;
     text-align: center;
-    background-color: bisque;
-}
-
-.template {
-    background-color: bisque;
+    background-color: #fff;
 }
 
 .recipe-description{
-    background-color: bisque;
+    border-style: dotted;
+    border-color: burlywood;
+    border-radius: 10px;
+    font-size: 25px
 }
+
+img {
+    display: block;
+    margin: 40px auto;        /* Centers them and spaces them out vertically */
+    border-radius: 12px;      /* Softens the sharp corners of the photos */
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1); /* Adds a subtle, professional depth shadow */
+    max-width: 100%;         /* Ensures they don't break on smaller screens */
+    height: auto;
+    background-color: burlywood;
+}
+
 
 /* For custom font: */
 
-.permanent-marker-regular {
+.permanent-marker-regular{
   font-family: "Permanent Marker", cursive;
-  font-size: 45px;
+  font-size: 90px;
   font-weight: 400;
   font-style: normal;
 }
